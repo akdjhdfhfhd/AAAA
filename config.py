@@ -9,19 +9,19 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
 
 OWNER_ID = int(getenv("OWNER_ID"))
 
-PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/e1ca90fe34e9640e0248b.jpg")
-START_IMG = getenv("START_IMG", "https://te.legra.ph/file/f8ba75bdbb9931cbc8229.jpg")
+PING_IMG = getenv("PING_IMG", "https://edit.telegra.ph/auth/A6KkJXJI7ZQltU14XBgJaTDQ6t4NSSMsYuNGsuoxte")
+START_IMG = getenv("START_IMG", "https://edit.telegra.ph/auth/A6KkJXJI7ZQltU14XBgJaTDQ6t4NSSMsYuNGsuoxte")
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EE_47")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EE_20")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ah07v")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ah07v")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5656828413").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1748768168").split()))
 
 
 FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
